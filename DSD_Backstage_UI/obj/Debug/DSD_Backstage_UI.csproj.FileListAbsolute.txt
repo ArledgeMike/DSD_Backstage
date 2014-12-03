@@ -1,0 +1,5 @@
+C:\Sites\DSD_Backstage_UI\DSD_Backstage_UI\bin\DSD_Backstage_UI.dll
+C:\Sites\DSD_Backstage_UI\DSD_Backstage_UI\bin\DSD_Backstage_UI.pdb
+C:\Sites\DSD_Backstage_UI\DSD_Backstage_UI\obj\Debug\DSD_Backstage_UI.dll
+C:\Sites\DSD_Backstage_UI\DSD_Backstage_UI\obj\Debug\DSD_Backstage_UI.pdb
+C:\Sites\DSD_Backstage_UI\DSD_Backstage_UI\obj\Debug\DSD_Backstage_UI.csprojResolveAssemblyReference.cache
