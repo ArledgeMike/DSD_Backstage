@@ -61,6 +61,7 @@ h2 {
      color:rgb(65,64,66);
      opacity:.9;
      margin-bottom:5px;
+     letter-spacing:0.7px;
 }
 h3 {
      font-family: 'Roboto-Medium', sans-serif;
@@ -76,8 +77,9 @@ h4 {
     margin-bottom:13px;
     font-size:17px;
     font-weight:600;
+    letter-spacing:0.7px;
 }
-p {
+p, li, tr {
     font-family: 'Roboto-Light', sans-serif;
     opacity:.7;
     color:rgb(65,64,66);
@@ -156,30 +158,11 @@ nav.side-nav {
     box-shadow: 1px 2px 18px rgba(0,0,0,0);
 	cursor:pointer;
     transition: box-shadow .28s linear, background .28s linear;
-    //transition-duration: .28s;
-    //transition-timing-function: linear;
     position: relative;
     background:rgba(65,64,66,1);
-   /* animation: hover-animation 2s;
-	-webkit-animation-fill-mode: forwards;
-    -webkit-animation: hover-animation 2s;
-  -moz-animation: hover-animation 2s;*/
-	
 }
-/*
-@-webkit-keyframes hover-animation{
-	from{
-	    box-shadow: 1px 2px 18px rgba(0,0,0,0);
-		
-	}
-	to{
-		box-shadow: 3px 4px 18px rgba(0,0,0,.8);
-	}
-	
-}
-*/   nav.side-nav ul li:hover {
+  nav.side-nav ul li:hover {
        background:rgb(99,100,102);
- 
 box-shadow: 3px 4px 18px rgba(0,0,0,.8);
  z-index:8;
 }
@@ -227,14 +210,13 @@ nav.side-nav ul.sub_menu li{
   border-top: 2px rgba(224,224,224,.2) solid; 
   border-bottom: 1px rgba(0,0,0,.2) solid;
 }
-.sub_btn p:before{
-	content:"slug icon";
-	width:10px;
-	height:10px;
-	backgound:red;
+.sub_btn a p span {
+    font-family: 'Glyphicons Halflings';
 }
 #contain.row {
     position: relative;
+    margin-left: -15px;
+    margin-bottom: 0px;
 }
 #main {
     float: left;
@@ -246,6 +228,7 @@ nav.side-nav ul.sub_menu li{
 list-style-type:none;
 margin-left:0px;
 padding-left:0px;
+display:inline-block;
 }
  .swatch_container li {
     display:inline;
@@ -255,6 +238,59 @@ padding-left:0px;
     border-radius: 25px;
     margin-right:15px;
     margin-bottom:15px;
+    opacity:1;
+    
+}
+ ul.chips{
+    padding:0;
+    margin:0 0 25px 0;
+    list-style-type:none;
+}
+ul.bs-glyphicons-list {
+    list-style-type:none;
+    display:inline-block;
+    padding: 0;
+    margin: 0;
+}
+.glyphicon {
+    color: rgb(121,165,66);
+}
+ul.bs-glyphicons-list li{
+    float:left;
+    width: 95px;
+    height: 95px;
+    opacity:1;
+    text-align:center;
+    position:relative;
+    overflow:hidden;
+    background: rgb(65,64,66);
+    margin: 7px;
+    cursor: pointer;
+    box-shadow: 1px 2px 18px rgba(0,0,0,0);
+    transition: box-shadow .2s linear, background .2s linear;
+}
+ul.bs-glyphicons-list li:hover {
+       background: #212121;
+       box-shadow: 5px 19px 18px rgba(0,0,0,.6);
+}
+
+    ul.bs-glyphicons-list li span.glyphicon {
+    position: relative;
+    
+    top: 23px;
+    font-size: 25px;
+}
+ul.bs-glyphicons-list li span.glyphicon-class{
+   display:block;
+   opacity: .7;
+   font-size: 12px;
+   position: relative;
+   color: rgb(121,165,66);
+   top: 21px;
+}
+ ul.chips li{
+    height:35px;
+    opacity:1;
 }
 .swatch_container li.first {
         background:rgb(255,69,26);
@@ -272,6 +308,139 @@ padding-left:0px;
        .swatch_container li.fifth {
           background:rgb(121,165,66);
     }
+ul.button_set {
+    list-style-type: none;
+    margin: 30px 0 0 0;
+    padding: 0;
+    display: inline-block;
+}
+
+ul.button_set li{
+    float:left;
+ opacity:1;
+    margin: 0 14px 10px 0;
+}
+.second_btn {
+    margin-left: 25px;
+}
+.btn.action_btn {
+border-radius: 200px;
+width: 78px;
+height: 78px;
+border: none;
+font-family: 'Glyphicons Halflings';
+box-shadow: 2px 2px 2px rgba(0,0,0,.4);
+font-size: 24px;
+}
+#flat_buttons li, #raised_buttons li {
+    width: 100%;
+}
+.btn.raised_btn {
+    font-family: 'Roboto-Regular', sans-serif;
+    border: none;
+    position:relative;
+    overflow:hidden;
+    padding: 9px 20px;
+border-radius: 2px;
+box-shadow: 0px 2px 2px rgba(0,0,0,.4);
+  transition: box-shadow .28s linear;
+}
+
+table tbody tr td span {
+    font-family: 'Glyphicons Halflings';
+    font-size: 21px;
+    margin-left: 15px;
+}
+table tbody tr span.first_icon {
+    margin-left: 0px;
+}
+    .btn.raised_btn:hover {
+          box-shadow:0px 5px 10px rgba(0,0,0,.5);
+        
+    }
+  
+.btn.flat_btn {
+    font-family: 'Roboto-Medium', sans-serif;
+     border: none;
+     border-radius: 2px;
+     padding: 9px 20px;
+     position:relative;
+     overflow:hidden;
+     background:none;
+     box-shadow:0px 0px 0px rgba(0,0,0,0);
+     color:rgb(255,69,26);
+      text-decoration:none;
+       transition: box-shadow .28s linear;
+}
+    .btn.flat_btn:hover {
+          box-shadow:0px 5px 10px rgba(0,0,0,.2);
+        
+    }
+form {
+margin-top:35px;
+}
+.form-control,input[type="text"], input[type="email"], input[type="password"] {
+  font-family: 'Roboto-Light';
+      border-top: none;
+border-left: none;
+border-right: none;
+border-radius: 0;
+background: none;
+box-shadow: none;
+border-bottom: 2px rgba(0,73,98,.5) solid;
+height: 55px;
+padding: 0;
+font-size: 22px;
+}
+    input:focus {
+        box-shadow: 0;
+         transition:none;
+         outline:none;
+    }
+.checkbox input[type="checkbox"] {
+}
+
+
+
+footer {
+    width: 100%;
+    height: 75px;
+    display: inline-block;
+ 
+}
+.phonenumber {
+display:inline-block;
+}
+.phonenumber .col-md-3 {
+    padding-right: 4px;
+    padding-left:0px;
+}
+.button_set {
+margin: 25px 0 0 0;
+}
+
+
+.btn.span.btn_title {
+color:black;
+}
+
+.btn_title {
+    z-index: 999;
+    color: black;
+    position: relative;
+}
+
+  .btn.btn-block {
+    padding: 13px 0;
+    font-size: 18px;
+}
+        .btn.btn-lg {
+    padding: 13px 53px;
+}
+            .btn.btn-sm {
+    padding: 4px 10px;
+    /* font-size: 18px; */
+}
 
 	/*RIPPLE EFFECT*/
 	.ripple, .sub_btn{
@@ -290,6 +459,7 @@ padding-left:0px;
 	  -webkit-animation: ripple-animation 2s;
 	  -moz-animation: ripple-animation 2s;
 	}
+
 
 	@-webkit-keyframes ripple-animation {
 	    from {

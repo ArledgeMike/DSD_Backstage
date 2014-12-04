@@ -46,7 +46,7 @@ function close_sub_menu(target) {
   $(function() {
     
     
-    $('.sub_btn').on('click', function (event) {
+    $('.sub_btn, ul.bs-glyphicons-list li, .raised_btn, .flat_btn').on('click', function (event) {
       event.preventDefault();
       console.log("clicked up");
       var $div = $('<div/>'),
@@ -65,7 +65,7 @@ function close_sub_menu(target) {
         .css({
           top: yPos - ($ripple.height()/2),
           left: xPos - ($ripple.width()/2),
-          background: $(this).data("ripple-color")
+          background:  "#999999"  //$(this).data("ripple-color")
         }) 
         .prependTo($(this));
 		console.log("we made it through");
