@@ -7,29 +7,19 @@ $('.sub_btn').on("click", function (event) {
    
     if (sub_menu_open) {
         close_sub_menu(menu_target);
-        sub_menu_open =  false
+        sub_menu_open =  false;
     } else {
-   
         open_sub_menu(menu_target);
-        sub_menu_open = true
-
+        sub_menu_open = true;
     }
-    
-
-});
-
-
+  });
 function open_sub_menu(target) {
     console.log(target);
      target.slideToggle("fast",function () {
         $(this).find('li').each(function (i) {
             $(this).delay(i * 100).animate({ opacity: 1 });
         });
-
-
     });
-
-
 }
 
 function close_sub_menu(target) {
@@ -49,3 +39,41 @@ function close_sub_menu(target) {
 
 
 }
+
+
+(function (window, $) {
+  
+  $(function() {
+    
+    
+    $('.sub_btn').on('click', function (event) {
+      event.preventDefault();
+      console.log("clicked up");
+      var $div = $('<div/>'),
+          btnOffset = $(this).offset(),
+      		xPos = event.pageX - btnOffset.left,
+      		yPos = event.pageY - btnOffset.top;
+      
+
+      
+      $div.addClass('ripple-effect');
+      var $ripple = $(".ripple-effect");
+      
+      $ripple.css("height", $(this).height());
+      $ripple.css("width", $(this).height());
+      $div
+        .css({
+          top: yPos - ($ripple.height()/2),
+          left: xPos - ($ripple.width()/2),
+          background: $(this).data("ripple-color")
+        }) 
+        .prependTo($(this));
+		console.log("we made it through");
+      window.setTimeout(function(){
+        $div.remove();
+      }, 2000);
+    });
+    
+  });
+  
+})(window, jQuery);
