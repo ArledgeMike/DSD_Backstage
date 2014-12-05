@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>\\svdev6\e$\RMPlatform\Web\Dsd_closerlook</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="404.html">
+      <publishTime>12/03/2014 10:22:08</publishTime>
+    </File>
+    <File Include="bin/DSD_Backstage_UI.dll">
+      <publishTime>12/05/2014 17:07:14</publishTime>
+    </File>
+    <File Include="bin/DSD_Backstage_UI.pdb">
+      <publishTime>12/05/2014 17:07:14</publishTime>
+    </File>
+    <File Include="css/bootstrap.css">
+      <publishTime>12/05/2014 13:45:48</publishTime>
+    </File>
+    <File Include="css/curtain.css">
+      <publishTime>12/05/2014 15:25:28</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>12/05/2014 16:45:22</publishTime>
+    </File>
+    <File Include="Default.html">
+      <publishTime>12/05/2014 14:26:12</publishTime>
+    </File>
+    <File Include="dsd.html">
+      <publishTime>12/05/2014 16:42:30</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>12/03/2014 10:22:08</publishTime>
+    </File>
+    <File Include="fonts/Glyphs/glyphicons-halflings-regular.eot">
+      <publishTime>12/04/2014 10:43:04</publishTime>
+    </File>
+    <File Include="fonts/Glyphs/glyphicons-halflings-regular.svg">
+      <publishTime>12/04/2014 10:43:04</publishTime>
+    </File>
+    <File Include="fonts/Glyphs/glyphicons-halflings-regular.ttf">
+      <publishTime>12/04/2014 10:43:04</publishTime>
+    </File>
+    <File Include="fonts/Glyphs/glyphicons-halflings-regular.woff">
+      <publishTime>12/04/2014 10:43:04</publishTime>
+    </File>
+    <File Include="fonts/Roboto/Roboto-Black-webfont.eot">
+      <publishTime>12/03/2014 11:15:37</publishTime>
+    </File>
+    <File Include="fonts/Roboto/Roboto-Black-webfont.svg">
+      <publishTime>12/03/2014 11:15:37</publishTime>
+    </File>
+    <File Include="fonts/Roboto/Roboto-Black-webfont.ttf">
+      <publishTime>12/03/2014 11:15:37</publishTime>
+    </File>
+    <File Include="fonts/Roboto/Roboto-Black-webfont.woff">
+      <publishTime>12/03/2014 11:15:37</publishTime>
+    </File>
+    <File Include="fonts/Roboto/Roboto-Bold-webfont.eot">
+      <publishTime>12/03/2014 11:15:37</publishTime>
+    </File>
+    <File Include="fonts/Roboto/Roboto-Bold-webfont.svg">
+      <publishTime>12/03/2014 11:15:37</publishTime>
+    </File>
+    <File Include="fonts/Roboto/Roboto-Bold-webfont.ttf">
+      <publishTime>12/03/2014 11:15:37</publishTime>
+    </File>
+    <File Include="fonts/Roboto/Roboto-Bold-webfont.woff">
+      <publishTime>12/03/2014 11:15:37</publishTime>
+    </File>
+    <File Include="fonts/Roboto/Roboto-Italic-webfont.eot">
+      <publishTime>12/03/2014 11:15:37</publishTime>
+    </File>
+    <File Include="fonts/Roboto/Roboto-Italic-webfont.svg">
+      <publishTime>12/03/2014 11:15:37</publishTime>
+    </File>
+    <File Include="fonts/Roboto/Roboto-Italic-webfont.ttf">
+      <publishTime>12/03/2014 11:15:37</publishTime>
+    </File>
+    <File Include="fonts/Roboto/Roboto-Italic-webfont.woff">
+      <publishTime>12/03/2014 11:15:37</publishTime>
+    </File>
+    <File Include="fonts/Roboto/Roboto-Light-webfont.eot">
+      <publishTime>12/03/2014 11:15:37</publishTime>
+    </File>
+    <File Include="fonts/Roboto/Roboto-Light-webfont.svg">
+      <publishTime>12/03/2014 11:15:37</publishTime>
+    </File>
+    <File Include="fonts/Roboto/Roboto-Light-webfont.ttf">
+      <publishTime>12/03/2014 11:15:37</publishTime>
+    </File>
+    <File Include="fonts/Roboto/Roboto-Light-webfont.woff">
+      <publishTime>12/03/2014 11:15:37</publishTime>
+    </File>
+    <File Include="fonts/Roboto/Roboto-Medium-webfont.eot">
+      <publishTime>12/03/2014 11:15:37</publishTime>
+    </File>
+    <File Include="fonts/Roboto/Roboto-Medium-webfont.svg">
+      <publishTime>12/03/2014 11:15:37</publishTime>
+    </File>
+    <File Include="fonts/Roboto/Roboto-Medium-webfont.ttf">
+      <publishTime>12/03/2014 11:15:37</publishTime>
+    </File>
+    <File Include="fonts/Roboto/Roboto-Medium-webfont.woff">
+      <publishTime>12/03/2014 11:15:37</publishTime>
+    </File>
+    <File Include="fonts/Roboto/Roboto-Regular-webfont.eot">
+      <publishTime>12/03/2014 11:15:37</publishTime>
+    </File>
+    <File Include="fonts/Roboto/Roboto-Regular-webfont.svg">
+      <publishTime>12/03/2014 11:15:37</publishTime>
+    </File>
+    <File Include="fonts/Roboto/Roboto-Regular-webfont.ttf">
+      <publishTime>12/03/2014 11:15:37</publishTime>
+    </File>
+    <File Include="fonts/Roboto/Roboto-Regular-webfont.woff">
+      <publishTime>12/03/2014 11:15:37</publishTime>
+    </File>
+    <File Include="images/glyphicons-halflings-white.png">
+      <publishTime>12/03/2014 10:24:16</publishTime>
+    </File>
+    <File Include="images/glyphicons-halflings.png">
+      <publishTime>12/03/2014 10:24:16</publishTime>
+    </File>
+    <File Include="js/library/bootstrap.min.js">
+      <publishTime>12/03/2014 10:25:31</publishTime>
+    </File>
+    <File Include="js/library/jquery-1.9.1.min.js">
+      <publishTime>12/03/2014 10:25:31</publishTime>
+    </File>
+    <File Include="js/main.js">
+      <publishTime>12/05/2014 15:59:02</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>12/03/2014 10:21:22</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>12/05/2014 17:07:14</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+﻿.left_curtain, .right_curtain {
+width:50%;
+height:100%;
+background:rgba(255,69,26,1);
+position:fixed;
+top:0;
+left:0;
+z-index:-99;
+box-shadow: 4px 0 8px rgba(0,0,0,.4);
+}
+
+.right_curtain {
+    left:initial;
+    right:0;
+    box-shadow: -4px 0 8px rgba(0,0,0,.4);
+}
