@@ -77,3 +77,24 @@ function close_sub_menu(target) {
   });
   
 })(window, jQuery);
+
+$('ul.bs-glyphicons-list li:last-child').on("click", function(){
+	
+	console.log("colors");
+
+/* utility */
+var color_arr = [];
+$('span.hex').each(function(){
+	
+    color_arr.push($(this).text());
+});
+
+var num = 0;
+$('ul.bs-glyphicons-list li').each(function(i){
+   $(this).css("background", color_arr[num]); 
+num++;   
+if (num == color_arr.length){
+    num = 0;
+   }
+});
+});
